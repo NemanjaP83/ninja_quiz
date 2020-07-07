@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ninja Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-3 py-3">Ninja Quiz</h2>
+      </div>
+    </div>
+    <!-- result -->
+    <div class="result bg-light text-center py-4">
+      <div class="container lead text-primary">
+        <p class="text-primary display-4">You are <span id="p-score">0%</span> ninja</p>
+      </div>
+    </div>
+
+    <div class="quiz bg-primary py-4">
+      <div class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. How do you give a njnja direction?
+            </p>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q1" id="" value="A" checked />
+              <label for="q1" class="form-check-label">Show them a map</label>
+            </div>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q1" id="" value="B" />
+              <label for="q1" class="form-check-label"
+                >Don't worry, a ninja will find you...</label
+              >
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. The ninja has three apples and gives two, how many aplles does
+              the ninja have left?!
+            </p>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q2" id="" value="A" checked />
+              <label for="q1" class="form-check-label">One aplle</label>
+            </div>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q2" id="" value="B" />
+              <label for="q2" class="form-check-label">Three aplles</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. How do you know when you have met a ninja?!
+            </p>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q3" id="" value="A" checked />
+              <label for="q1" class="form-check-label"
+                >You will recognize the outfit</label
+              >
+            </div>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q3" id="" value="B" />
+              <label for="q3" class="form-check-label"
+                >The Gandalf will tell you</label
+              >
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. What is a ninja's favourite array method?!
+            </p>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q4" id="" value="A" checked />
+              <label for="q4" class="form-check-label">ForEach()</label>
+            </div>
+            <div class="form-check text-white-50 my-2">
+              <input type="radio" name="q4" id="" value="B" />
+              <label for="q4" class="form-check-label">Slice()</label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-light">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="contaner lead text-center py-3 bg-light">
+        <p class="lead text-primary display-5 font-weight-normal">Nemanja 2020</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
